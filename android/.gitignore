@@ -1,22 +1,11 @@
-.gradle
-build/
-.DS_Store
-*.iml
-*.apk
-*.aar
-*.zip
-google-services.json
+gradle-wrapper.jar
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+GeneratedPluginRegistrant.java
 
-.project
-.settings
-.classpath
-
-local.properties
-
-.idea/*
-!idea/codeStyles
-
-captures
-.externalNativeBuild
-.cxx
-
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+key.properties
